@@ -78,11 +78,4 @@ Feel free to explore the repository to learn more about the configurations and s
 
 
 
-  
-Certifications
-[Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
 
-    
-Projects
-Detection Lab
-SOC Automation Project
