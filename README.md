@@ -57,7 +57,7 @@ A collection of projects demonstrating hands-on skills in virtualization, networ
   1. Created and managed user accounts.  
   2. Applied group policies to impose security rules on the second VM.  
 
-
+---
 
 ## **Tools & Technologies**
 - Oracle VM VirtualBox  
@@ -65,12 +65,17 @@ A collection of projects demonstrating hands-on skills in virtualization, networ
 - Active Directory Domain Services  
 - VLAN Configuration  
 
+---
+
 ## **Next Steps**
 - Automate VM provisioning and configurations using tools like Ansible.  
 - Explore intrusion detection systems (IDS) and monitoring tools like Snort or ELK Stack.  
 - Expand homelab to include Linux-based systems for cross-platform management.  
 
+---
+
 Feel free to explore the repository to learn more about the configurations and scripts used in these projects!
+
 
 
   
