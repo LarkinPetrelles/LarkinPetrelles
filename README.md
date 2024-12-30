@@ -1,33 +1,78 @@
 # Hello, I'm Larkin
 <a href="https://www.linkedin.com/in/larkin-petrelles-591a05174/" ><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-[Brief Introduction]
-
 I am a current student working towards my bachelors degree in CyberSecurity Technology in the next few months. I have a profound interest in technology, a dedication to solving complex problems, and curiousity to learn more about these systems to ensure our security throughout our ever changing world.
 
 Objective
-[Provide Objective]
 
 My journey has led me to develop a passion for cybersecurity, and I am now eager to transition into this field fully from the finance field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst or become a Junior Systems Administrator.
 
-Skills
-[Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
+# **IT & Cybersecurity Homelab Projects**
 
-Skill	Associated Project
-SIEM Implementation and Log Analysis	Detection Lab
-Network Traffic Monitoring and Attack Detection	Detection Lab
-Security Automation with Shuffle SOAR	SOC Automation Lab
-Incident Response Planning and Execution	SOC Automation Lab
-Case Management with TheHive	SOC Automation Lab
-Scripting and Automation for Threat Mitigation	SOC Automation Lab
-Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
+A collection of projects demonstrating hands-on skills in virtualization, networking, and system administration. These projects highlight practical implementations and foundational knowledge in IT and cybersecurity.
 
-Network
-  
-Endpoint
- 
-SIEM
+---
+
+## **Skills Highlight**
+- **Virtualization**:  
+  - Set up and managed virtual machines using Oracle VM VirtualBox.  
+  - Installed and configured Windows OS for multiple virtual environments.  
+
+- **Active Directory**:  
+  - Configured a Windows-based domain controller and linked another VM via Active Directory.  
+  - Managed user accounts, permissions, and group policies.  
+
+- **Networking**:  
+  - Created and configured VLANs with static IPs for secure and efficient communication.  
+  - Integrated VLAN with a secondary VM to enhance connectivity and security.  
+
+- **System Administration**:  
+  - Enforced security rules and configurations on linked VMs.  
+  - Managed domain connections and monitored resource access.  
+
+---
+
+## **Projects**
+
+### **1. Domain Controller Setup**
+- **Objective**: Configure a Windows domain controller to manage network resources.  
+- **Key Steps**:  
+  1. Created a VM with Windows Server.  
+  2. Installed and set up Active Directory Domain Services.  
+  3. Linked a second VM to the domain.  
+
+---
+
+### **2. Network Segmentation with VLANs**
+- **Objective**: Isolate and secure network traffic between virtual machines.  
+- **Key Steps**:  
+  1. Configured VLANs with static IPs.  
+  2. Integrated VLAN into a secondary VM.  
+
+---
+
+### **3. Active Directory Integration**
+- **Objective**: Enforce domain policies across networked machines.  
+- **Key Steps**:  
+  1. Created and managed user accounts.  
+  2. Applied group policies to impose security rules on the second VM.  
+
+
+
+## **Tools & Technologies**
+- Oracle VM VirtualBox  
+- Windows OS & Windows Server  
+- Active Directory Domain Services  
+- VLAN Configuration  
+
+## **Next Steps**
+- Automate VM provisioning and configurations using tools like Ansible.  
+- Explore intrusion detection systems (IDS) and monitoring tools like Snort or ELK Stack.  
+- Expand homelab to include Linux-based systems for cross-platform management.  
+
+Feel free to explore the repository to learn more about the configurations and scripts used in these projects!
+
+
   
 Certifications
 [Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
