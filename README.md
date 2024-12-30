@@ -1,7 +1,7 @@
 # Hello, I'm Larkin
 <a href="https://www.linkedin.com/in/larkin-petrelles-591a05174/" ><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-I am a current student working towards my bachelors degree in CyberSecurity Technology in the next few months. I have a profound interest in technology, a dedication to solving complex problems, and curiousity to learn more about these systems to ensure our security throughout our ever changing world.
+I am a current student working towards completing my bachelors degree in the next few months majoring in CyberSecurity Technology. I have a profound interest in technology, a dedication to solving complex problems, and curiousity to learn more about these systems to ensure our security throughout our ever changing world.
 
 Objective
 
