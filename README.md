@@ -1,19 +1,22 @@
 # Hello, I'm Larkin
 <a href="https://www.linkedin.com/in/larkin-petrelles-591a05174/" ><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-I am a current student working towards completing my bachelors degree in the next few months majoring in CyberSecurity Technology. I have a profound interest in technology, a dedication to solving complex problems, and curiousity to learn more about these systems to ensure our security throughout our ever changing world.
+I am a current student working towards completing my bachelors degree in Fall 2025 majoring in CyberSecurity Technology. I have a profound interest in technology, a dedication to solving complex problems, and curiousity to learn more about these systems to ensure our security throughout our ever changing world.
 
-Objective
+## **Objective**
 
-My journey has led me to develop a passion for cybersecurity, and I am now eager to transition into this field fully from the finance field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst or become a Junior Systems Administrator.
+My journey has led me to develop a passion for cybersecurity, and I am now eager to transition into this field fully from the finance field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst or become a Junior Systems Administrator for Windows.
 
-# **IT & Cybersecurity Homelab Projects**
+---
+
+## **IT & Cybersecurity Homelab Projects**
 
 A collection of projects demonstrating hands-on skills in virtualization, networking, and system administration. These projects highlight practical implementations and foundational knowledge in IT and cybersecurity.
 
 ---
 
 ## **Skills Highlight**
+
 - **Virtualization**:  
   - Set up and managed virtual machines using Oracle VM VirtualBox.  
   - Installed and configured Windows OS for multiple virtual environments.  
@@ -29,6 +32,8 @@ A collection of projects demonstrating hands-on skills in virtualization, networ
 - **System Administration**:  
   - Enforced security rules and configurations on linked VMs.  
   - Managed domain connections and monitored resource access.  
+  - Configured a Windows Firewall in the domain controller VM using Server Manager.  
+  - Defined and managed blocked and allowed ports to enhance network security.  
 
 ---
 
@@ -59,18 +64,28 @@ A collection of projects demonstrating hands-on skills in virtualization, networ
 
 ---
 
+### **4. Firewall Configuration on Domain Controller and other VMs connected to Domain Controller**
+- **Objective**: Enhance network security by configuring a firewall in the domain controller.  
+- **Key Steps**:  
+  1. Configured Windows Firewall through Server Manager on the domain controller VM.  
+  2. Defined inbound and outbound rules for blocked and allowed ports.  
+  3. Tested connectivity and verified that access control policies were functioning as intended.  
+
+---
+
 ## **Tools & Technologies**
 - Oracle VM VirtualBox  
 - Windows OS & Windows Server  
 - Active Directory Domain Services  
 - VLAN Configuration  
+- Windows Firewall Configuration (Server Manager)  
 
 ---
 
 ## **Next Steps**
 - Automate VM provisioning and configurations using tools like Ansible.  
 - Explore intrusion detection systems (IDS) and monitoring tools like Snort or ELK Stack.  
-- Expand homelab to include Linux-based systems for cross-platform management.  
+- Expand homelab to include Linux-based systems for cross-platform management and log review.  
 
 ---
 
