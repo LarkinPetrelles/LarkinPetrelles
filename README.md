@@ -5,7 +5,7 @@ I am a current student working towards completing my bachelors degree in Fall 20
 
 ## **Objective**
 
-My journey has led me to develop a passion for cybersecurity, and I am now eager to transition into this field fully from the finance field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst or become a Junior Systems Administrator for Windows.
+My journey has led me to develop a passion for cybersecurity, and I am now eager to transition into this field fully from the finance field, specifically aiming to join a Security Operations Center (SOC) as a SOC Analyst, become a CyberSecurity Analyst who focuses on monitoring/engineering or become a Windows Systems Administrator.
 
 ---
 
