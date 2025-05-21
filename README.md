@@ -35,6 +35,13 @@ A collection of projects demonstrating hands-on skills in virtualization, networ
   - Configured a Windows Firewall in the domain controller VM using Server Manager.  
   - Defined and managed blocked and allowed ports to enhance network security.  
 
+- **Penetration Testing**:  
+  - Conducted network reconnaissance and service enumeration using Zenmap and Nmap tools.  
+  - Executed vulnerability scans with OpenVAS to identify critical misconfigurations and CVEs.  
+  - Gained unauthorized access through Telnet exploitation and performed file system exploration.  
+  - Simulated data exfiltration and documented findings in professional red team reporting formats.  
+  - Troubleshot and reconfigured Kali Linux network adapter to restore OpenVAS functionality.
+
 ---
 
 ## **Projects**
@@ -73,12 +80,29 @@ A collection of projects demonstrating hands-on skills in virtualization, networ
 
 ---
 
+### **5. Red Team Penetration Testing (CMIT 386 Project)**
+- **Objective**: Perform a simulated penetration test against a vulnerable Linux-based target machine within a controlled network to identify vulnerabilities, exploit services, and exfiltrate sensitive data.  
+- **Key Steps**:  
+  1. Conducted network reconnaissance using Zenmap to discover live hosts and open ports.  
+  2. Performed vulnerability scanning with OpenVAS, identifying misconfigurations and exploitable services (notably Telnet on port 23).  
+  3. Exploited the Telnet service using Kali Linux tools to gain shell access to the target machine.  
+  4. Navigated the filesystem to locate and exfiltrate data from the `/redteam4/student4` directory, simulating a real-world breach.  
+  5. Authored both a System Scan Report and Penetration Test Report, documenting methodology, findings (including CVEs), exploited vector, and remediation strategies.  
+  6. Troubleshot network adapter issues in Kali VM and reconfigured settings to restore scanner connectivity for OpenVAS.  
+
+---
+
 ## **Tools & Technologies**
 - Oracle VM VirtualBox  
 - Windows OS & Windows Server  
 - Active Directory Domain Services  
 - VLAN Configuration  
 - Windows Firewall Configuration (Server Manager)  
+- Kali Linux (Red Team Tools)  
+- Zenmap (Nmap Frontend)  
+- OpenVAS (Vulnerability Scanner)  
+- Metasploit Framework  
+- Telnet, Bash, and Netcat
 
 ---
 
@@ -86,6 +110,8 @@ A collection of projects demonstrating hands-on skills in virtualization, networ
 - Automate VM provisioning and configurations using tools like Ansible.  
 - Explore intrusion detection systems (IDS) and monitoring tools like Snort or ELK Stack.  
 - Expand homelab to include Linux-based systems for cross-platform management and log review.  
+- Simulate advanced attack chains with custom payloads and C2 frameworks in red team labs.  
+- Deepen exploitation techniques and integrate reporting automation for red team operations.
 
 ---
 
