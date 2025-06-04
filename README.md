@@ -80,7 +80,7 @@ A collection of projects demonstrating hands-on skills in virtualization, networ
 
 ---
 
-### **5. Red Team Penetration Testing (CMIT 386 Project)**
+### **5. Red Team Penetration Testing**
 - **Objective**: Perform a simulated penetration test against a vulnerable Linux-based target machine within a controlled network to identify vulnerabilities, exploit services, and exfiltrate sensitive data.  
 - **Key Steps**:  
   1. Conducted network reconnaissance using Zenmap to discover live hosts and open ports.  
