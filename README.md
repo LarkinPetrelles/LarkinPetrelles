@@ -5,7 +5,7 @@ I am a current student working towards completing my bachelors degree in Fall 20
 
 ## **Objective**
 
-My journey has led me to develop a passion for cybersecurity.I am eager to transition into this field fully from the finance field, specifically aiming to join a Security Operations Center (SOC) as a SOC Analyst with hopes to become a CyberSecurity Analyst who focuses on engineering down the line.
+My journey has led me to develop a passion for cybersecurity.I am eager to transition into this field fully from the finance field, specifically aiming to join a Security Operations Center (SOC) as a SOC Analyst with hopes to focus on security engineering down the line.
 
 ---
 
