@@ -5,7 +5,7 @@ I am a current student working towards completing my bachelors degree in Fall 20
 
 ## **Objective**
 
-My journey has led me to develop a passion for cybersecurity.I am eager to transition into this field fully from the finance field. As I'm looking to transition, I welcome any IT role to start my career and gain foundational experience. Whether it is in security or another aspect of IT. 
+My journey has led me to develop a passion for cybersecurity. I am eager to transition into this field fully from the finance field. As I'm looking to transition, I am eager to start in any IT role to begin my career and gain foundational experience. Whether it is in security or another aspect of IT. 
 
 ---
 
