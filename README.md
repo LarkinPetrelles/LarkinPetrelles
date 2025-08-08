@@ -17,101 +17,76 @@ A collection of projects demonstrating hands-on skills in virtualization, networ
 
 ## **Skills Highlight**
 
-- **Virtualization**:  
-  - Set up and managed virtual machines using Oracle VM VirtualBox.  
-  - Installed and configured Windows OS for multiple virtual environments.  
-
-- **Active Directory**:  
-  - Configured a Windows-based domain controller and linked another VM via Active Directory.  
-  - Managed user accounts, permissions, and group policies.  
-
-- **Networking**:  
-  - Created and configured VLANs with static IPs for secure and efficient communication.  
-  - Integrated VLAN with a secondary VM to enhance connectivity and security.  
+- **Cloud & Virtualization**:  
+  - Provisioned and managed cloud-based servers using AWS EC2.  
+  - Deployed and configured Ubuntu Server instances in AWS.  
+  - Managed multiple virtual machines using Oracle VM VirtualBox.  
 
 - **System Administration**:  
-  - Enforced security rules and configurations on linked VMs.  
-  - Managed domain connections and monitored resource access.  
-  - Configured a Windows Firewall in the domain controller VM using Server Manager.  
-  - Defined and managed blocked and allowed ports to enhance network security.  
+  - Performed Linux server updates, upgrades, and log analysis.  
+  - Configured security rules, firewalls, and access controls.  
+  - Managed user accounts and group policies via Active Directory.  
 
-- **Penetration Testing**:  
-  - Conducted network reconnaissance and service enumeration using Zenmap and Nmap tools.  
-  - Executed vulnerability scans with OpenVAS to identify critical misconfigurations and CVEs.  
-  - Gained unauthorized access through Telnet exploitation and performed file system exploration.  
-  - Simulated data exfiltration and documented findings in professional red team reporting formats.  
-  - Troubleshot and reconfigured Kali Linux network adapter to restore OpenVAS functionality.
+- **Networking**:  
+  - Configured VLANs and static IPs for secure communication.  
+  - Performed network diagnostics and connectivity verification.  
+
+- **Penetration Testing & Security Analysis**:  
+  - Conducted reconnaissance using Nmap and Zenmap.  
+  - Performed vulnerability scans with OpenVAS.  
+  - Exploited insecure services (e.g., Telnet) to simulate breaches.  
+  - Documented findings and remediation strategies in professional reports.
 
 ---
 
 ## **Projects**
 
-### **1. Domain Controller Setup**
-- **Objective**: Configure a Windows domain controller to manage network resources.  
+### **1. AWS Ubuntu Server Deployment & Log Analysis**
+- **Objective**: Deploy and manage a secure Ubuntu Server in AWS while simulating an internal threat detection workflow.  
 - **Key Steps**:  
-  1. Created a VM with Windows Server.  
-  2. Installed and set up Active Directory Domain Services.  
-  3. Linked a second VM to the domain.  
+  1. Provisioned an AWS EC2 Ubuntu instance.  
+  2. Configured SSH access from a local host system.  
+  3. Performed system updates (`apt-get update` and `apt-get upgrade`).  
+  4. Conducted Nmap and Nikto scans against an Apache web server.  
+  5. Parsed Apache logs to detect suspicious scan activity.  
 
 ---
 
-### **2. Network Segmentation with VLANs**
-- **Objective**: Isolate and secure network traffic between virtual machines.  
+### **2. Domain Controller & Active Directory Setup**
+- **Objective**: Centralize authentication and manage resources in a Windows Server environment.  
 - **Key Steps**:  
-  1. Configured VLANs with static IPs.  
-  2. Integrated VLAN into a secondary VM.  
+  1. Installed Active Directory Domain Services.  
+  2. Linked client machines to the domain.  
+  3. Managed users, permissions, and policies.  
 
 ---
 
-### **3. Active Directory Integration**
-- **Objective**: Enforce domain policies across networked machines.  
+### **3. Red Team Penetration Testing**
+- **Objective**: Simulate a real-world penetration test against a vulnerable Linux target.  
 - **Key Steps**:  
-  1. Created and managed user accounts.  
-  2. Applied group policies to impose security rules on the second VM.  
-
----
-
-### **4. Firewall Configuration on Domain Controller and other VMs connected to Domain Controller**
-- **Objective**: Enhance network security by configuring a firewall in the domain controller.  
-- **Key Steps**:  
-  1. Configured Windows Firewall through Server Manager on the domain controller VM.  
-  2. Defined inbound and outbound rules for blocked and allowed ports.  
-  3. Tested connectivity and verified that access control policies were functioning as intended.  
-
----
-
-### **5. Red Team Penetration Testing**
-- **Objective**: Perform a simulated penetration test against a vulnerable Linux-based target machine within a controlled network to identify vulnerabilities, exploit services, and exfiltrate sensitive data.  
-- **Key Steps**:  
-  1. Conducted network reconnaissance using Zenmap to discover live hosts and open ports.  
-  2. Performed vulnerability scanning with OpenVAS, identifying misconfigurations and exploitable services (notably Telnet on port 23).  
-  3. Exploited the Telnet service using Kali Linux tools to gain shell access to the target machine.  
-  4. Navigated the filesystem to locate and exfiltrate data from the `/redteam4/student4` directory, simulating a real-world breach.  
-  5. Authored both a System Scan Report and Penetration Test Report, documenting methodology, findings (including CVEs), exploited vector, and remediation strategies.  
-  6. Troubleshot network adapter issues in Kali VM and reconfigured settings to restore scanner connectivity for OpenVAS.  
+  1. Conducted reconnaissance and scanning with Zenmap/OpenVAS.  
+  2. Exploited Telnet to gain shell access.  
+  3. Located and exfiltrated sensitive files.  
+  4. Produced detailed penetration test documentation.
 
 ---
 
 ## **Tools & Technologies**
-- Oracle VM VirtualBox  
-- Windows OS & Windows Server  
-- Active Directory Domain Services  
-- VLAN Configuration  
-- Windows Firewall Configuration (Server Manager)  
-- Kali Linux (Red Team Tools)  
-- Zenmap (Nmap Frontend)  
-- OpenVAS (Vulnerability Scanner)  
-- Metasploit Framework  
-- Telnet, Bash, and Netcat
+- **Cloud & Virtualization**: AWS EC2, Oracle VM VirtualBox  
+- **Operating Systems**: Ubuntu Server (Linux), Windows OS, Windows Server  
+- **Directory & Networking**: Active Directory Domain Services, VLAN Configuration, Static IP Management  
+- **Security & Administration**: Windows Firewall (Server Manager), Linux Firewall (UFW), Access Controls  
+- **Penetration Testing Tools**: Kali Linux, Zenmap/Nmap, OpenVAS, Metasploit Framework  
+- **Scripting & Utilities**: Bash, Netcat, Telnet, SSH  
 
 ---
 
 ## **Next Steps**
-- Automate VM provisioning and configurations using tools like Ansible.  
-- Explore intrusion detection systems (IDS) and monitoring tools like Snort or ELK Stack.  
-- Expand homelab to include Linux-based systems for cross-platform management and log review.  
-- Simulate advanced attack chains with custom payloads and C2 frameworks in red team labs.  
-- Deepen exploitation techniques and integrate reporting automation for red team operations.
+- Automate cloud and VM provisioning/configuration with Ansible or Terraform.  
+- Implement intrusion detection and monitoring with Snort, Wazuh, or ELK Stack.  
+- Expand homelab with hybrid Windows/Linux environments for cross-platform security management.  
+- Simulate advanced attack chains using custom payloads and C2 frameworks (e.g., Cobalt Strike, Sliver).  
+- Develop automated red team reporting workflows and integrate vulnerability remediation tracking. 
 
 ---
 
