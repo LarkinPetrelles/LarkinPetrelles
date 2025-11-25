@@ -26,10 +26,10 @@ Projects demonstrating core competency in AWS services, security controls, and c
 
 **Summary:** Performed FinOps cost optimization, modeling two pricing structures and providing a recommendation that reduced potential annual expenses by over **$270K**. Designed a governance structure (Azure Management Groups/Resource Groups) to enforce policy and ensure compliance standards (e.g., FedRAMP). Documented advanced networking concepts: SDN and IBN.
 
-### 3. AWS Ubuntu Server Deployment & Log Analysis
-**Objective:** Deploy a secure Ubuntu Server in AWS and simulate a threat detection workflow.
+### 3. AWS Linux Server Deployment & Log Analysis
+**Objective:** Deploy a secure Linux Server in AWS and simulate a threat detection workflow.
 
-**Summary:** Provisioned an AWS EC2 Ubuntu instance and configured security rules. Key deliverable was parsing Apache logs to detect and analyze suspicious scan activity, confirming foundational threat logging and detection skills.
+**Summary:** Provisioned an AWS EC2 Linux instance and configured security rules. Key deliverable was parsing Apache logs to detect and analyze suspicious scan activity, confirming foundational threat logging and detection skills.
 
 ---
 
